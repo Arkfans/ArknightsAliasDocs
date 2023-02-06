@@ -10,7 +10,7 @@ API无需TOKEN即可调用，qps固定为10
 
 ## 从文本中获取名称
 
-```text
+```
 [GET] /name/search
 ```
 
@@ -46,7 +46,7 @@ API无需TOKEN即可调用，qps固定为10
 别名数据可在 [Arkfans/ArknightsAlias](https://github.com/Arkfans/ArknightsAlias) 查看
 :::
 
-```text
+```
 [GET] /alias/search
 ```
 
@@ -81,7 +81,7 @@ API无需TOKEN即可调用，qps固定为10
 
 ## 查询别名对应的名称
 
-```text
+```
 [GET] /alias/get
 ```
 
@@ -100,7 +100,7 @@ API无需TOKEN即可调用，qps固定为10
 
 ## 查询 查询那些别名指向该名称
 
-```text
+```
 [GET] /alias/inquire
 ```
 
@@ -142,7 +142,7 @@ API无需TOKEN即可调用，qps固定为10
 该请求会重定向到 [Arkfans/ArknightsName/data/all.json](https://raw.githubusercontent.com/Arkfans/ArknightsName/main/data/all.json)
 :::
 
-```text
+```
 [GET] /name/data.json
 ```
 ### 请求
@@ -155,7 +155,7 @@ API无需TOKEN即可调用，qps固定为10
 该请求会重定向到 [Arkfans/ArknightsAlias/data.json](https://raw.githubusercontent.com/Arkfans/ArknightsAlias/main/data.json)
 :::
 
-```text
+```
 [GET] /alias/data.json
 ```
 
