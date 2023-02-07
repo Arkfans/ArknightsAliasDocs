@@ -3,9 +3,10 @@
 ---
 
 <script setup>
-import {ref, h} from 'vue'
+import {ref, onMounted, h} from 'vue'
 import request from './lib/requests'
 import Message from './lib/message.vue'
+import {NButton} from 'naive-ui'
 
 const api = new request({host: 'https://alias.arkfans.top/'});
 const applys = ref([]);
@@ -28,8 +29,11 @@ function getReviewedApplys() {
         }
     });
 }
-getApplys();
-getReviewedApplys();
+
+onMounted(() => {
+    getApplys();
+    getReviewedApplys();
+});
 
 function setValue(isAlias, text) {
     if (text.length > 100) {
@@ -143,6 +147,8 @@ const ReviewedApplyColumn = [...BaseColumn, {
 }];
 </script>
 
+<ClientOnly>
+
  # 提交别名
  
  提交的别名在经过管理员审核后才会加入别名库，此过程一般会在三日内完成
@@ -164,6 +170,8 @@ const ReviewedApplyColumn = [...BaseColumn, {
                      style="width: 45%"></n-auto-complete>
     <n-button @click="() => {submit()}" type="primary">提交</n-button>
 </n-input-group>
+
+</ClientOnly>
 
  ### 别名列队
  
