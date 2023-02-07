@@ -4,7 +4,6 @@
 
 <script setup>
 import {ref, h} from 'vue'
-import {NButton} from 'naive-ui'
 import request from './lib/requests'
 import Message from './lib/message.vue'
 

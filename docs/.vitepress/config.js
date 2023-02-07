@@ -29,5 +29,10 @@ export default defineConfig({
             {text: '交流群', link: 'https://jq.qq.com/?_wv=1027&k=ImatbCzG'},
         ]
     },
-    lastUpdated: true
+    lastUpdated: true,
+    vite: {
+        ssr: {
+            format: 'cjs'
+        }
+    }
 })
