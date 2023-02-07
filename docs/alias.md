@@ -154,7 +154,8 @@ const ReviewedApplyColumn = [...BaseColumn, {
  提交的别名在经过管理员审核后才会加入别名库，此过程一般会在三日内完成
  
 :::tip
-原名可以在 [Arkfans/ArknightsName](https://github.com/Arkfans/ArknightsName/blob/main/table/all.md) 查看
+查看可用原名 [Arkfans/ArknightsName](https://github.com/Arkfans/ArknightsName/blob/main/table/all.md)  
+查看别名库 [Arkfans/ArknightsAlias](https://github.com/Arkfans/ArknightsAlias/blob/main/table.md)
 :::
 
  ### 提交
