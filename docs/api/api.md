@@ -4,10 +4,14 @@ title: 接口
 
 # API接口
 
+<ClientOnly>
+
 :::tip
 API无需TOKEN即可调用，qps固定为10  
 查看别名库 [Arkfans/ArknightsAlias](https://github.com/Arkfans/ArknightsAlias/blob/main/table.md)
 :::
+
+</ClientOnly>
 
 ## 从文本中获取名称
 
