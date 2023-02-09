@@ -183,6 +183,7 @@ const ReviewedApplyColumn = [...BaseColumn, {
                 :data="applys"
                 :bordered="false"
                 class="n-table-fix"
+                :pagination="{pageSize:10}"
         />
     </n-tab-pane>
     <n-tab-pane name="reviewed" tab="已审核">
@@ -191,6 +192,7 @@ const ReviewedApplyColumn = [...BaseColumn, {
                 :data="reviewedApplys"
                 :bordered="false"
                 class="n-table-fix"
+                :pagination="{pageSize:10}"
         />
     </n-tab-pane>
 </n-tabs>
