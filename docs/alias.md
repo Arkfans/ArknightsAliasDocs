@@ -54,7 +54,7 @@ const autoComplete = ref([]);
 function fetchName(search) {
     if (search) {
         api.get({
-            url: 'name/search?output=2&mode=14&text=' + search,
+            url: 'name/search?output=2&mode=14&text=' + encodeURIComponent(search),
             success: (resp) => {
                 autoComplete.value = resp.data
             }
