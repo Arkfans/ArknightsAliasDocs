@@ -79,8 +79,10 @@ BASIC = ALIAS | NAME | ID #  default
 INCLUDE = 1 << 0  # default
 # input:蒂 -> 斯卡蒂
 IN = 1 << 1
+# 相等
+EQ = 1 << 2
 # 拼音
-PINYIN = 1 << 2
+PINYIN = 1 << 3
 # 忽略大小写
-IGNORE_CASE = 1 << 3
+IGNORE_CASE = 1 << 4
 ```
