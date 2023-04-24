@@ -31,7 +31,8 @@ POOL = 1 << 10
 SKILL = 1 << 11
 STAGE = 1 << 12
 ZONE = 1 << 13
-ALL = (1 << 14) - 1  # default
+MEMORY = 1 << 14
+ALL = (1 << 15) - 1  # default
 ```
 
 ## LANG
